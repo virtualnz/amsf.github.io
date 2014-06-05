@@ -1,3 +1,74 @@
+<a name="0.0.11"></a>
+### 0.0.11 (2014-06-05)
+
+
+#### Features
+
+* **post:** update posts for discontinued external links ([744f32f4](http://github.com/sparanoid/sparanoid.com/commit/744f32f46a5052c57bf7bfe272cd238e39fab621))
+* **style:** remove obsoleted FlesSlider styles ([fd75b04c](http://github.com/sparanoid/sparanoid.com/commit/fd75b04c0fb6da967da33083aaf0a18045cba0b5))
+* **template:** update Atom template ([73c236bf](http://github.com/sparanoid/sparanoid.com/commit/73c236bfabfcdb9f2628ff382ae6b3534c9bedc2))
+
+
+#### Breaking Changes
+
+* Now you can use `link_blog` and `rss_excerpt` for your Atom feed ([73c236bf](http://github.com/sparanoid/sparanoid.com/commit/73c236bfabfcdb9f2628ff382ae6b3534c9bedc2)):
+  - `link_blog`: Enable this settings to make your feed Daring Fireball-like link blog. This basically change your <link> value to external link you defined in your posts.
+  - `rss_excerpt`: Use post excerpt instead of full content for RSS feeds, just like WordPress RSS feed output option
+
+
+<a name="0.0.10"></a>
+### 0.0.10 (2014-05-16)
+
+
+#### Features
+
+* **style** add FlesSlider example ([33859332](http://github.com/sparanoid/jekyll-scaffolding/commit/338593320f0f0c07ba150c5b5834a6916cd8f608))
+* **docs:** addd video tutorials link ([96379d27](http://github.com/sparanoid/jekyll-scaffolding/commit/96379d27455bd7e5304b08641d8309a5af6858a4))
+
+
+<a name="0.0.9"></a>
+### 0.0.9 (2014-05-16)
+
+
+#### Bug Fixes
+
+* **post:** fix post grammar ([d1cdebdd](http://github.com/sparanoid/sparanoid.com/commit/d1cdebdd92a1d38ef81195a21a03346a03b46c1f))
+* **style:**
+  * fix wrong scoped style use ([79e71de0](http://github.com/sparanoid/sparanoid.com/commit/79e71de08a1be4f7a404c94d8d77889af111497f))
+  * avoid line-height override for `jksf` ([d24663fd](http://github.com/sparanoid/sparanoid.com/commit/d24663fddbc4fdac012edd32aab86ad549632d5b))
+
+
+#### Features
+
+* update apple-touch-icon ([050508b5](http://github.com/sparanoid/sparanoid.com/commit/050508b5aed7553511330650e7d0da629e91607b))
+* **grunt:**
+  * update `html-minifier`, make all whitespace collapsed to one character. ([93bfb422](http://github.com/sparanoid/sparanoid.com/commit/93bfb4222eeb5e1e5e19b3df2164525b617eee81))
+  * better grunt tasks excluding files those need post-process ([bce8cf73](http://github.com/sparanoid/sparanoid.com/commit/bce8cf732f5f691516e04fcc00ab98b904245fac))
+* **post:** new post “AVOS Cloud” ([f6ed5f63](http://github.com/sparanoid/sparanoid.com/commit/f6ed5f634fda7209fedee6a4b8a6a3f692b682bf))
+* **style:**
+  * update status text color ([5a388e1b](http://github.com/sparanoid/sparanoid.com/commit/5a388e1b47123c67994cfcd2cebd9f5c5ed86b10))
+  * more viewport unit ([364c5ad1](http://github.com/sparanoid/sparanoid.com/commit/364c5ad1653d01f6e6758205b8ecbe95eed19ee1))
+* **template:**
+  * make normal image headers responsive ([c5d3a185](http://github.com/sparanoid/sparanoid.com/commit/c5d3a18599fea23650496f1667ff49f6cbbab730))
+  * update template variables ([874ccb06](http://github.com/sparanoid/sparanoid.com/commit/874ccb063f99d2625c3fbf0d8b70b833cc73b1e6))
+  * remove Alipay donate link ([f42ed071](http://github.com/sparanoid/sparanoid.com/commit/f42ed0716dca40e47a0b2a64d94e99842f5b29dc))
+  * better variables structure ([af58b736](http://github.com/sparanoid/sparanoid.com/commit/af58b736e9dab2122519733e0020186819cc747a))
+  * remove all FlexSlider instances ([4124d6ad](http://github.com/sparanoid/sparanoid.com/commit/4124d6ada257a79114f22d88e92a62829cecccb1))
+
+
+#### Breaking Changes
+
+* Now you can have custom CSS styles per post. Simply create a `css` front-matter data like this:
+
+```
+css: |
+  article header h1 img {
+    image-rendering: pixelated;
+  }
+```
+ ([c5d3a185](http://github.com/sparanoid/sparanoid.com/commit/c5d3a18599fea23650496f1667ff49f6cbbab730))
+
+
 <a name="0.0.8"></a>
 ### 0.0.8 (2014-04-27)
 
