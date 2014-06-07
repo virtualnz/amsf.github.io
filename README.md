@@ -1,3 +1,3 @@
-# [jksf.github.io](http://jksf.github.io/)
+# [amsf.github.io](http://amsf.github.io/)
 
-This is a demo how to make [Jekyll Scaffolding](http://github.com/sparanoid/jekyll-scaffolding) work well with [GitHub Pages](http://pages.github.com/).
+This is a demo how to make [Almace Scaffolding](http://github.com/sparanoid/almace-scaffolding) work well with [GitHub Pages](http://pages.github.com/).
