@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://sparanoid.com/sitemap.xml
+Sitemap: http://amsf.github.io/sitemap.xml

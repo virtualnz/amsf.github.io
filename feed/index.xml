@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Sparanoid</title><subtitle>I make things that don’t suck.</subtitle><updated>2014-06-05T11:11:03+08:00</updated><id>tag:sparanoid.com,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://sparanoid.com/" /><link rel="self" type="application/atom+xml" href="http://sparanoid.com/feed/" /><rights>Copyright © 2014, Tunghsiao Liu</rights><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><entry><title>Welcome to Jekyll Scaffolding</title><id>tag:sparanoid.com,2014:/jekyll-scaffolding/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/jekyll-scaffolding.html" /><updated>2014-01-01T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Almace Scaffolding Demo</title><subtitle>I make things that don’t suck.</subtitle><updated>2014-06-07T18:45:53+08:00</updated><id>tag:amsf.github.io,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://amsf.github.io/"/><link rel="self" type="application/atom+xml" href="http://amsf.github.io/feed/"/><rights>Copyright © 2014, Tunghsiao Liu</rights><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><entry><title>Welcome to Almace Scaffolding</title><id>tag:amsf.github.io,2014:/almace-scaffolding/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/almace-scaffolding.html"/><updated>2014-01-01T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
-          &lt;p&gt;This is a Jekyll Scaffolding demo, you can view documentation and source code at &lt;a href=&quot;https://github.com/sparanoid/jekyll-scaffolding&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;This is a Almace Scaffolding demo, you can view documentation and source code at &lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
   &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
@@ -13,7 +13,7 @@
         
       
     
-      </content></entry><entry><title>A List Apart 5.0</title><id>tag:sparanoid.com,2013:/ala-5.0/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/ala-5.0.html" /><updated>2013-01-26T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>A List Apart 5.0</title><id>tag:amsf.github.io,2013:/ala-5.0/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/ala-5.0.html"/><updated>2013-01-26T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;blockquote&gt;
   &lt;p&gt;A design that departs from our past and a platform on which to build the future. Welcome to the relaunch of A List Apart, for people who make websites. Content first: We’ve added new kinds of content (with more to come), and we’re publishing more frequently—a lot more frequently. Fear not, we will continue to produce the insightful and important articles you expect from A List Apart, and the biweekly issues they ride in on. Major articles and (mostly) biweekly issues are forever.&lt;/p&gt;
@@ -28,7 +28,7 @@
         &lt;p&gt;&lt;a href=&quot;http://alistapart.com/article/a-list-apart-relaunches-new-features-new-design&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>$3.1 Billion in a Day</title><id>tag:sparanoid.com,2012:/3.1-billion-in-a-day/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/3.1-billion-in-a-day.html" /><updated>2012-11-13T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>$3.1 Billion in a Day</title><id>tag:amsf.github.io,2012:/3.1-billion-in-a-day/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/3.1-billion-in-a-day.html"/><updated>2012-11-13T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;blockquote&gt;
   &lt;p&gt;Two days ago the Chinese website &lt;a href=&quot;http://www.taobao.com/&quot;&gt;Taobao&lt;/a&gt; held a discount promotion to celebrate what’s known as “double sticks day” in China. In a single 24hr period, they conducted 19bn RMB (US$3.06bn) of business.&lt;/p&gt;
@@ -43,7 +43,7 @@
         &lt;p&gt;&lt;a href=&quot;http://westiseast.co.uk/blog/taobao-sales-19-billion-bonanza/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>Safari 6 Gets Faster</title><id>tag:sparanoid.com,2012:/safari-6-gets-faster/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/safari-6-gets-faster.html" /><updated>2012-07-30T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Safari 6 Gets Faster</title><id>tag:amsf.github.io,2012:/safari-6-gets-faster/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/safari-6-gets-faster.html"/><updated>2012-07-30T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;Apple’s venerable web browser, Safari, was updated to version 6 shipped with the OS X Mountain Lion. There’re two changes I noticed: One is the blue progress bar, seems that it instantly disappeared after the HTML DOM laoded without images. The other is, scrolling is really smooth even when it is processing new content on a web page.&lt;/p&gt;
 
@@ -51,7 +51,7 @@
         
       
     
-      </content></entry><entry><title>Big Typography Dynasty</title><id>tag:sparanoid.com,2012:/big-typography-dynasty/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/big-typography-dynasty.html" /><updated>2012-07-14T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Big Typography Dynasty</title><id>tag:amsf.github.io,2012:/big-typography-dynasty/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/big-typography-dynasty.html"/><updated>2012-07-14T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;My site is now more responsive with big typography. I know most of the designers are still making their webpages with font size from 12px to 14px. But it’s time to use bigger typography now. The Big Typography Dynasty has come.&lt;/p&gt;
 
@@ -59,7 +59,7 @@
         
       
     
-      </content></entry><entry><title>“Free” Dribbble Invite</title><id>tag:sparanoid.com,2012:/free-dribbble-invite/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/free-dribbble-invite.html" /><updated>2012-06-24T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>“Free” Dribbble Invite</title><id>tag:amsf.github.io,2012:/free-dribbble-invite/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/free-dribbble-invite.html"/><updated>2012-06-24T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;Some Chinese designers are &lt;a href=&quot;http://www.iconfans.org/thread-30389-1-1.html&quot;&gt;selling&lt;/a&gt; their Dribbble invites for about $235 (1500 CNY in China). I’m really amazed. So I decide to giveaway one Dribbble invite for you guys who are still looking for it&amp;hellip; for FREE!&lt;/p&gt;
 
@@ -69,7 +69,7 @@
         &lt;p&gt;&lt;a href=&quot;http://www.v2ex.com/t/40433?r=sparanoid&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>I Don’t “Get” Art</title><id>tag:sparanoid.com,2012:/i-dont-get-art/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/i-dont-get-art.html" /><updated>2012-06-18T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>I Don’t “Get” Art</title><id>tag:amsf.github.io,2012:/i-dont-get-art/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/i-dont-get-art.html"/><updated>2012-06-18T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;The reason why I post the YC link here is that’s really “worth reading”.&lt;/p&gt;
 
@@ -79,7 +79,7 @@
         &lt;p&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=4124275&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>Minimalist Syndrome</title><id>tag:sparanoid.com,2011:/minimalist-syndrome/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/minimalist-syndrome.html" /><updated>2011-10-05T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Minimalist Syndrome</title><id>tag:amsf.github.io,2011:/minimalist-syndrome/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/minimalist-syndrome.html"/><updated>2011-10-05T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;I intended to close this site, with a simple, lonely logo at the frontpage. Until I realised I’ve ran it for almost six years. Deleted my old posts, it’s brand-new.&lt;/p&gt;
 
@@ -87,7 +87,7 @@
         
       
     
-      </content></entry><entry><title>NITE</title><id>tag:sparanoid.com,2011:/nite/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/nite.html" /><updated>2011-07-16T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>NITE</title><id>tag:amsf.github.io,2011:/nite/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/nite.html"/><updated>2011-07-16T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;Last time I redesign my site &lt;a href=&quot;/cyrconplex.html&quot;&gt;I said&lt;/a&gt; “Oh this time it looks great I’m going to use it for long enough”. But less than two month I redesigned my site again. It at first inspired by &lt;a href=&quot;http://lifepath.me/&quot;&gt;Lifepath&lt;/a&gt;, I create a &lt;a href=&quot;/lab/start/&quot;&gt;start page&lt;/a&gt; for my Safari default homepage (It looks really nice and you can have a try). I’m satisfied with this style then I deployed it to the whole site. &lt;del&gt;The style what you’re looking at.&lt;/del&gt;&lt;/p&gt;
 
@@ -97,7 +97,7 @@
         
       
     
-      </content></entry><entry><title>cyrconlex</title><id>tag:sparanoid.com,2011:/cyrconplex/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/cyrconplex.html" /><updated>2011-05-06T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>cyrconlex</title><id>tag:amsf.github.io,2011:/cyrconplex/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/cyrconplex.html"/><updated>2011-05-06T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;This time I use Courier New, a typography that not so popular, even not so pretty, but most of devices shipped with it. However this site still works fine only on a Mac. on Windows, Courier News renders in a burnt way. I also try to minimise the CSS usage for a complete theme. It’s been six years and my site bumped to version 16, hope this time I can use it for long enough.&lt;/p&gt;
 
@@ -105,7 +105,7 @@
         
       
     
-      </content></entry><entry><title>Notational Velocity</title><id>tag:sparanoid.com,2011:/nv/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/nv.html" /><updated>2011-04-02T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Notational Velocity</title><id>tag:amsf.github.io,2011:/nv/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/nv.html"/><updated>2011-04-02T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;Notational Velocity is a really simple note-taking app for OS X, it’s fast and it can sync with Simplenote and Dropbox. I translated it into Chinese Simplified, you can download it on their &lt;a href=&quot;http://notational.net/&quot;&gt;official website&lt;/a&gt;.&lt;/p&gt;
 
@@ -115,7 +115,7 @@
         &lt;p&gt;&lt;a href=&quot;http://notational.net/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>Brand New</title><id>tag:sparanoid.com,2010:/brand-new/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/brand-new.html" /><updated>2010-12-18T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Brand New</title><id>tag:amsf.github.io,2010:/brand-new/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/brand-new.html"/><updated>2010-12-18T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;Recently this site has several downtime because I was moving my server from one to another. And if you&amp;rsquo;ve subscribed my site you’ll noticed that all my posts refreshed in your RSS reader. Sorry about that, you can just ignore them, they’re all old posts except this one, just post here to let you know that the site is up and runing now, RSS (Atom) feed will also work (I hope). At last let me tell you what I did these days:&lt;/p&gt;
 
@@ -131,7 +131,7 @@
         
       
     
-      </content></entry><entry><title>lindsay-koinaka 2.0</title><id>tag:sparanoid.com,2010:/lindsay-koinaka-2/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/lindsay-koinaka-2.html" /><updated>2010-10-21T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>lindsay-koinaka 2.0</title><id>tag:amsf.github.io,2010:/lindsay-koinaka-2/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/lindsay-koinaka-2.html"/><updated>2010-10-21T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;It’s a WordPress theme since this version, and it’s the first theme I made on a Mac after switching from Windows to OS X less than a month. Comparing to the initial vesion, all complex layouts and CSS3 animations have removed on this theme. Looks pretty simple. The source code is hosted on GitHub with &lt;strong&gt;details instructions and setup guide&lt;/strong&gt;. The good news is the whole configuration needs only ten steps. And the bad news is, maybe it’s the last theme I made for WordPress.&lt;/p&gt;
 
@@ -139,7 +139,7 @@
         
       
     
-      </content></entry><entry><title>lindsay-koinaka</title><id>tag:sparanoid.com,2010:/lindsay-koinaka/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/lindsay-koinaka.html" /><updated>2010-09-05T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>lindsay-koinaka</title><id>tag:amsf.github.io,2010:/lindsay-koinaka/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/lindsay-koinaka.html"/><updated>2010-09-05T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;The new theme is out. &lt;del&gt;Just what you’re looking at,&lt;/del&gt; it’s still work-in-progress, based on HTML5 and CSS 3. It looks great on a Webkit brwoser. New Firefox 4 should look fine too. IE 10 may also work except border-radius and animations. The source code can be accessed at &lt;del datetime=&quot;2010-10-15T11:23:56+00:00&quot;&gt;Google Code&lt;/del&gt; &lt;a href=&quot;http://github.com/sparanoid/lindsay-koinaka&quot;&gt;GitHub&lt;/a&gt;, however it’s the first time I’m trying things like this. bug reports, comments, suggestions, and ideas for improvements are welcome.&lt;/p&gt;
 
@@ -147,7 +147,7 @@
         
       
     
-      </content></entry><entry><title>Lester’s Plugins in Chinese</title><id>tag:sparanoid.com,2009:/lesters-plugins-in-chinese/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/lesters-plugins-in-chinese.html" /><updated>2009-08-06T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Lester’s Plugins in Chinese</title><id>tag:amsf.github.io,2009:/lesters-plugins-in-chinese/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/lesters-plugins-in-chinese.html"/><updated>2009-08-06T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p lang=zh&gt;這些基本是我在建一個私人 WPMU 時用到的插件，Lester Chan 的插件翻譯起來是相當舒服的，分離的徹底而且順序也比較有邏輯性。於是就把他大部分的插件都翻譯成了中文&lt;/p&gt;
 
@@ -157,7 +157,7 @@
         
       
     
-      </content></entry><entry><title>Need More Space?</title><id>tag:sparanoid.com,2009:/need-more-space/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/need-more-space.html" /><updated>2009-07-28T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Need More Space?</title><id>tag:amsf.github.io,2009:/need-more-space/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/need-more-space.html"/><updated>2009-07-28T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;First you should look at &lt;a href=&quot;http://rsrc.sparanoid.com/ui-in-opera-chrome-ie-and-firefox_large.png&quot;&gt;this preview&lt;/a&gt;. Comparing Opera 10, Chrome 3.0, Internet Exporer 8, Firefox 3.5, The largest viewport area for those brwosers is Chrome. It doens’t have status bar at the bottom and the others have it and it’s enabled by default. Opera has its menus shown by default, but you can hide it. Firefox also have menus but unfortunately you can’t hide it without hacks or extensions.&lt;/p&gt;
 
@@ -165,7 +165,7 @@
         
       
     
-      </content></entry><entry><title>BugMirror</title><id>tag:sparanoid.com,2007:/bugmirror/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/bugmirror.html" /><updated>2007-08-20T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>BugMirror</title><id>tag:amsf.github.io,2007:/bugmirror/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/bugmirror.html"/><updated>2007-08-20T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;BugMirror is a different screen saver, as its packed with bugs. Nowadays screens are made out of pixels. What if they were made of living creatures instead?&lt;/p&gt;
 
@@ -175,7 +175,7 @@
         &lt;p&gt;&lt;a href=&quot;http://uri.cat/software/BugMirror/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>SF.net CCA 2007 Winner</title><id>tag:sparanoid.com,2007:/7zip-sourceforge-cca07/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/7zip-sourceforge-cca07.html" /><updated>2007-08-04T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>SF.net CCA 2007 Winner</title><id>tag:amsf.github.io,2007:/7zip-sourceforge-cca07/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/7zip-sourceforge-cca07.html"/><updated>2007-08-04T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;blockquote cite=&quot;http://sourceforge.net/blog/cca07/&quot;&gt;
   &lt;p&gt;&lt;strong&gt;The Community Choice Awards&lt;/strong&gt; are over! The SourceForge.net 2007 Community Choice Awards provided you an opportunity to recognize projects that stand taller than the rest. Everybody got to vote, and everybody’s vote counted equally. The winning projects, each with superlative quality, productivity, and ingenuity, represent the cream of the crop on SourceForge.net.&lt;/p&gt;
@@ -189,7 +189,7 @@
         &lt;p&gt;&lt;a href=&quot;http://sourceforge.net/blog/cca07/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>A New Keyboard</title><id>tag:sparanoid.com,2007:/a-new-keyboard/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/a-new-keyboard.html" /><updated>2007-07-28T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>A New Keyboard</title><id>tag:amsf.github.io,2007:/a-new-keyboard/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/a-new-keyboard.html"/><updated>2007-07-28T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/hardware/en-us/d/comfort-curve-keyboard-2000&quot;&gt;Microsoft Comfort Curve Keyboard 2000&lt;/a&gt;, The whole keyboard is a curved shape, comfortable, ergonomically inspired contours, and it looks a little strange. It sounds lighter than my old Logitech keyboard. The bad is the keys feel a bit mushy, especially the space key.&lt;/p&gt;
 
@@ -197,7 +197,7 @@
         
       
     
-      </content></entry><entry><title>7-Zip Portable</title><id>tag:sparanoid.com,2006:/7-zip-portable/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/7-zip-portable.html" /><updated>2006-08-24T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>7-Zip Portable</title><id>tag:amsf.github.io,2006:/7-zip-portable/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/7-zip-portable.html"/><updated>2006-08-24T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p lang=zh&gt;對於那些不想安裝的人來說，用這個還是不錯的，放在 U 盤裡隨時用也挺方便&lt;/p&gt;
 
@@ -207,7 +207,7 @@
         &lt;p&gt;&lt;a href=&quot;http://portableapps.com/apps/utilities/7-zip_portable&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
-      </content></entry><entry><title>Segoe UI</title><id>tag:sparanoid.com,2006:/segoe-ui/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/segoe-ui.html" /><updated>2006-05-19T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Segoe UI</title><id>tag:amsf.github.io,2006:/segoe-ui/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/segoe-ui.html"/><updated>2006-05-19T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p lang=zh&gt;在搞 Xinjustice 時，順便了解了一下字體，翻到 &lt;a href=&quot;http://blogs.msdn.com/b/jensenh/archive/2005/11/16/493388.aspx&quot;&gt;Making the Letters Better&lt;/a&gt; 時發現 Segoe UI 與 Frutiger Next 異常的像，MS 承認 Segoe UI 就是 Frutiger Next，Segoe UI 也只是對 ClearType 做了優化而已&lt;/p&gt;
 
@@ -215,7 +215,7 @@
         
       
     
-      </content></entry><entry><title>Hello World</title><id>tag:sparanoid.com,2005:/hello-world/</id><link rel="alternate" type="text/html" href="http://sparanoid.com/hello-world.html" /><updated>2005-10-21T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://sparanoid.com/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://sparanoid.com/">
+      </content></entry><entry><title>Hello World</title><id>tag:amsf.github.io,2005:/hello-world/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/hello-world.html"/><updated>2005-10-21T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
           &lt;p&gt;Yes, it’s me.&lt;/p&gt;
 
