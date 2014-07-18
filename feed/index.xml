@@ -1,6 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Almace Scaffolding</title><subtitle>I make things that don’t suck.</subtitle><updated>2014-06-09T18:44:36+08:00</updated><id>tag:amsf.github.io,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://amsf.github.io/"/><link rel="self" type="application/atom+xml" href="http://amsf.github.io/feed/"/><rights>Copyright © 2014, Tunghsiao Liu</rights><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><entry><title>Welcome to Almace Scaffolding</title><id>tag:amsf.github.io,2014:/almace-scaffolding/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/almace-scaffolding.html"/><updated>2014-01-01T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Almace Scaffolding</title><subtitle>I make things that don’t suck.</subtitle><updated>2014-07-18T18:50:05+08:00</updated><id>tag:amsf.github.io,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://amsf.github.io/"/><link rel="self" type="application/atom+xml" href="http://amsf.github.io/feed/"/><rights>Copyright © 2014, Tunghsiao Liu</rights><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><entry><title>Welcome to Almace Scaffolding</title><id>tag:amsf.github.io,2014:/almace-scaffolding/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/almace-scaffolding.html"/><updated>2014-06-13T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
         
-          &lt;p&gt;This is an Almace Scaffolding demo, you can view documentation and source code at &lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;code&gt;amsf&lt;/code&gt;, a.k.a. &lt;strong&gt;Almace Scaffolding&lt;/strong&gt;, a sleek and super-fast responsive theme with only one HTTP request, LESS auto-compile, prefix-free, HTML minification, inlined stylesheets and more. Available for Jekyll right now (will be available for more platforms in the future).&lt;/p&gt;
+
+&lt;p&gt;View documentation and learn more on &lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fully configured Jekyll setup with well-defined &lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding/blob/master/_app/feed-atom.xml&quot;&gt;Atom feed&lt;/a&gt;, &lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding/blob/master/_app/sitemap.xml&quot;&gt;sitemap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A sleek responsive theme, a variant of &lt;a href=&quot;http://sparanoid.com/&quot;&gt;sparanoid.com&lt;/a&gt;, and every minified page generates only one HTTP request &lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;(Maybe) &lt;a href=&quot;https://github.com/sparanoid/sparanoid.com/commit/9b44b4c0f57c3dd1e828d828a95cc21b992785ce&quot;&gt;the first&lt;/a&gt; template that uses &lt;a href=&quot;http://www.w3.org/TR/css3-values/#viewport-relative-lengths&quot;&gt;viewport relative units&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding/blob/master/_config.init.yml&quot;&gt;Tons of configurable settings&lt;/a&gt; for your posts and site customization&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding/blob/master/_app/assets/_less/app.less&quot;&gt;Handcrafted stylesheets&lt;/a&gt;. No Bootstrap or other bloated frameworks are used, CSS &amp;lt; 12 KB (Unminified)&lt;/li&gt;
+&lt;li&gt;Theme color scheme, Pygments code highlighting, &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;Twitter Cards&lt;/a&gt;, tables, footnotes, GFM, smart quotes are also supported&lt;/li&gt;
+&lt;li&gt;Built with Grunt.js for easy development&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Setup&lt;/h3&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone git@github.com:sparanoid/almace-scaffolding.git
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle install &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; npm install
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;cp _config.init.yml _config.yml
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;grunt serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can go to the &lt;a href=&quot;&quot;&gt;GitHub repository&lt;/a&gt; for detailed setup instructions.&lt;/p&gt;
+
+&lt;h3&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;Go to the &lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding&quot;&gt;GitHub repository&lt;/a&gt; for documentation, downloads, bug reports, and feature requests.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn1&quot;&gt;
+&lt;p&gt;Only when your posts don’t have fancy sliders or other external media files.&amp;nbsp;&lt;a href=&quot;#fnref1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+
+        
+        
+      
+    
+      </content></entry><entry><title>Markup Example</title><id>tag:amsf.github.io,2014:/markup-example/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/markup-example.html"/><updated>2014-01-01T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
+        
+          &lt;p&gt;Lorem lean startup ipsum &lt;strong&gt;product market fit customer development&lt;/strong&gt; acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying &lt;a href=&quot;#&quot;&gt;crowded market&lt;/a&gt; pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Two days ago the Chinese website &lt;a href=&quot;http://www.taobao.com/&quot;&gt;Taobao&lt;/a&gt; held a discount promotion to celebrate what’s known as “double sticks day” in China. In a single 24hr period, they conducted 19bn RMB (US$3.06bn) of business.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;cite&gt;&lt;a href=&quot;http://westiseast.co.uk/blog/taobao-sales-19-billion-bonanza/&quot;&gt;Chris West&lt;/a&gt;&lt;/cite&gt;
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Good afterble constanoon, this sweet hongi is as bung as a stuffed morepork. Mean while, in the marae, Dr Ropata and Hairy Maclary from Donaldson&amp;rsquo;s Dairy were up to no good with a bunch of bloody troties.&lt;/p&gt;
+
+&lt;h3&gt;Inline HTML elements&lt;/h3&gt;
+
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+&lt;li&gt;Citations, like &lt;cite&gt;&amp;mdash; Tunghsiao Liu &amp;amp; Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+
+&lt;p&gt;Maui and his rough as guts piece of pounamu, what a stink buzz. Bro, quater-acre patches are really naff good with bung mates, aye. You have no idea how beached as our random kais were aye. Every time I see those beautiful lengths of number 8 wire it&amp;rsquo;s like Castle Hill all over again aye, do you happen to have a bucket or a hose bro?&lt;/p&gt;
+
+&lt;h3&gt;Code Highlighting&lt;/h3&gt;
+
+&lt;p&gt;Code highlighting demo, powered by Pygments. More info about code highlighting can be found at &lt;a href=&quot;http://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;Jekyll&amp;rsquo;s documentation&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;show&lt;/span&gt;
   &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Widget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;respond_to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
@@ -8,219 +87,134 @@
     &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;render&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;vi&quot;&gt;@widget&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;c&quot;&gt;/* Background color function */&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.code-bg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;lightness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;@return-bg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;mix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;lighten&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%),&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.code-bg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;lightness&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;@return-bg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;mix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;darken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%),&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Headings&lt;/h3&gt;
+
+&lt;p&gt;You have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it&amp;rsquo;s like the dairy all over again aye, you don&amp;rsquo;t know his story, bro. Anyway, Hairy Maclary from Donaldson&amp;rsquo;s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you&amp;rsquo;ve got yourself a meal.&lt;/p&gt;
+
+&lt;h4&gt;Headings&lt;/h4&gt;
+
+&lt;p&gt;You have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it&amp;rsquo;s like the dairy all over again aye, you don&amp;rsquo;t know his story, bro. Anyway, Hairy Maclary from Donaldson&amp;rsquo;s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you&amp;rsquo;ve got yourself a meal.&lt;/p&gt;
+
+&lt;h5&gt;Headings&lt;/h5&gt;
+
+&lt;p&gt;You have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it&amp;rsquo;s like the dairy all over again aye, you don&amp;rsquo;t know his story, bro. Anyway, Hairy Maclary from Donaldson&amp;rsquo;s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you&amp;rsquo;ve got yourself a meal.&lt;/p&gt;
+
+&lt;h6&gt;Headings&lt;/h6&gt;
+
+&lt;p&gt;You have no idea how pretty suss our same same but different toasted sandwiches were aye. Every time I see those carked it keas it&amp;rsquo;s like the dairy all over again aye, you don&amp;rsquo;t know his story, bro. Anyway, Hairy Maclary from Donaldson&amp;rsquo;s Dairy is just Mrs Falani in disguise, to find the true meaning of life, one must start frying up with the hangi, mate. After the rugby ball is jumped the ditch, you add all the stink girl guide biscuits to the trotie you&amp;rsquo;ve got yourself a meal.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;### H3 Heading
+#### H4 Heading
+##### H5 Heading
+###### H6 Heading
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Tables&lt;/h3&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Upvotes&lt;/th&gt;
+&lt;th&gt;Downvotes&lt;/th&gt;
+&lt;th&gt;Abstentions&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Charlie&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Totals&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h3&gt;Gists via GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;Use the &lt;code&gt;gist&lt;/code&gt; tag to easily embed a GitHub Gist onto your site. This works with public or secret gists:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/sparanoid/55c3dd64f94881017a7b.js?file=gist.md&quot;&gt; &lt;/script&gt;
+
+&lt;h3&gt;Unique Post Styling&lt;/h3&gt;
+
+&lt;p&gt;You can simply use &lt;code&gt;css&lt;/code&gt; key to your post YAML front-matter head:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;---
+layout: post
+title: Welcome to Almace Scaffolding
+css: |
+  body {
+    font-size: 1.8vw;
+  }
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Browser Frame&lt;/h3&gt;
+
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;http://rsrc.sparanoid.com/delicious.com.png&quot; alt=&quot;Delicious Preview&quot; class=nointense&gt;&lt;/p&gt;
+
+&lt;p&gt;You can add a browser frame to your images by simply using the following markup:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;browser&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://sparanoid.com/photo.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Please note that you can&amp;rsquo;t apply CSS classes in Markdown, so you have to use HTML markup.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://github.com/tholman/intense-images&quot;&gt;intense.js&lt;/a&gt; Support&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://rsrc.sparanoid.com/moonstruck-princess-ext-red.jpg&quot; alt=&quot;Moonstruck Princess Extended - Red&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Add the folloing setting to your post &lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;front-matter field&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;plugin: intense
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Markdown markup:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;![Image](http://sparanoid.com/photo.jpg)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Or simply use HTML:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://sparanoid.com/photo.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;intense.js&lt;/code&gt; is activated globally by default, if you want to disable this effect for specific image, you can simply apply &lt;code&gt;.nointense&lt;/code&gt; CSS class to your &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://sparanoid.com/photo.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;nointense&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Please note that if you&amp;rsquo;re using HTML markup, you should wrap your images into a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; container.&lt;/p&gt;
+
+        
+        
+      
+    
+      </content></entry><entry><title>External Link Post</title><id>tag:amsf.github.io,2014:/external-link-post/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/external-link-post.html"/><updated>2014-01-01T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
+        
+          &lt;p&gt;This is an example of Tumblr-like external link post. You can simply add the folloing setting to your post &lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;front-matter field&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;link: http://sparanoid.com/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         
         
       
-    
-      </content></entry><entry><title>A List Apart 5.0</title><id>tag:amsf.github.io,2013:/ala-5.0/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/ala-5.0.html"/><updated>2013-01-26T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;blockquote&gt;
-  &lt;p&gt;A design that departs from our past and a platform on which to build the future. Welcome to the relaunch of A List Apart, for people who make websites. Content first: We’ve added new kinds of content (with more to come), and we’re publishing more frequently—a lot more frequently. Fear not, we will continue to produce the insightful and important articles you expect from A List Apart, and the biweekly issues they ride in on. Major articles and (mostly) biweekly issues are forever.&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;cite&gt;&lt;a href=&quot;http://alistapart.com/article/a-list-apart-relaunches-new-features-new-design&quot;&gt;Jeffrey Zeldman&lt;/a&gt;&lt;/cite&gt;
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://alistapart.com/article/a-list-apart-relaunches-new-features-new-design&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>$3.1 Billion in a Day</title><id>tag:amsf.github.io,2012:/3.1-billion-in-a-day/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/3.1-billion-in-a-day.html"/><updated>2012-11-13T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;blockquote&gt;
-  &lt;p&gt;Two days ago the Chinese website &lt;a href=&quot;http://www.taobao.com/&quot;&gt;Taobao&lt;/a&gt; held a discount promotion to celebrate what’s known as “double sticks day” in China. In a single 24hr period, they conducted 19bn RMB (US$3.06bn) of business.&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;cite&gt;&lt;a href=&quot;http://westiseast.co.uk/blog/taobao-sales-19-billion-bonanza/&quot;&gt;Chris West&lt;/a&gt;&lt;/cite&gt;
-  &lt;/footer&gt;
-&lt;/blockquote&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://westiseast.co.uk/blog/taobao-sales-19-billion-bonanza/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>Safari 6 Gets Faster</title><id>tag:amsf.github.io,2012:/safari-6-gets-faster/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/safari-6-gets-faster.html"/><updated>2012-07-30T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;Apple’s venerable web browser, Safari, was updated to version 6 shipped with the OS X Mountain Lion. There’re two changes I noticed: One is the blue progress bar, seems that it instantly disappeared after the HTML DOM laoded without images. The other is, scrolling is really smooth even when it is processing new content on a web page.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>Big Typography Dynasty</title><id>tag:amsf.github.io,2012:/big-typography-dynasty/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/big-typography-dynasty.html"/><updated>2012-07-14T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;My site is now more responsive with big typography. I know most of the designers are still making their webpages with font size from 12px to 14px. But it’s time to use bigger typography now. The Big Typography Dynasty has come.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>“Free” Dribbble Invite</title><id>tag:amsf.github.io,2012:/free-dribbble-invite/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/free-dribbble-invite.html"/><updated>2012-06-24T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;Some Chinese designers are &lt;a href=&quot;http://www.iconfans.org/thread-30389-1-1.html&quot;&gt;selling&lt;/a&gt; their Dribbble invites for about $235 (1500 CNY in China). I’m really amazed. So I decide to giveaway one Dribbble invite for you guys who are still looking for it&amp;hellip; for FREE!&lt;/p&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://www.v2ex.com/t/40433?r=sparanoid&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>I Don’t “Get” Art</title><id>tag:amsf.github.io,2012:/i-dont-get-art/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/i-dont-get-art.html"/><updated>2012-06-18T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;The reason why I post the YC link here is that’s really “worth reading”.&lt;/p&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=4124275&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>Minimalist Syndrome</title><id>tag:amsf.github.io,2011:/minimalist-syndrome/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/minimalist-syndrome.html"/><updated>2011-10-05T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;I intended to close this site, with a simple, lonely logo at the frontpage. Until I realised I’ve ran it for almost six years. Deleted my old posts, it’s brand-new.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>NITE</title><id>tag:amsf.github.io,2011:/nite/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/nite.html"/><updated>2011-07-16T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;Last time I redesign my site &lt;a href=&quot;/cyrconplex.html&quot;&gt;I said&lt;/a&gt; “Oh this time it looks great I’m going to use it for long enough”. But less than two month I redesigned my site again. It at first inspired by &lt;a href=&quot;http://lifepath.me/&quot;&gt;Lifepath&lt;/a&gt;, I create a &lt;a href=&quot;/lab/start/&quot;&gt;start page&lt;/a&gt; for my Safari default homepage (It looks really nice and you can have a try). I’m satisfied with this style then I deployed it to the whole site. &lt;del&gt;The style what you’re looking at.&lt;/del&gt;&lt;/p&gt;
-
-&lt;p&gt;I can’t really get what can I do with my site, except redesigning it from time to time.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>cyrconlex</title><id>tag:amsf.github.io,2011:/cyrconplex/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/cyrconplex.html"/><updated>2011-05-06T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;This time I use Courier New, a typography that not so popular, even not so pretty, but most of devices shipped with it. However this site still works fine only on a Mac. on Windows, Courier News renders in a burnt way. I also try to minimise the CSS usage for a complete theme. It’s been six years and my site bumped to version 16, hope this time I can use it for long enough.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>Notational Velocity</title><id>tag:amsf.github.io,2011:/nv/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/nv.html"/><updated>2011-04-02T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;Notational Velocity is a really simple note-taking app for OS X, it’s fast and it can sync with Simplenote and Dropbox. I translated it into Chinese Simplified, you can download it on their &lt;a href=&quot;http://notational.net/&quot;&gt;official website&lt;/a&gt;.&lt;/p&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://notational.net/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>Brand New</title><id>tag:amsf.github.io,2010:/brand-new/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/brand-new.html"/><updated>2010-12-18T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;Recently this site has several downtime because I was moving my server from one to another. And if you&amp;rsquo;ve subscribed my site you’ll noticed that all my posts refreshed in your RSS reader. Sorry about that, you can just ignore them, they’re all old posts except this one, just post here to let you know that the site is up and runing now, RSS (Atom) feed will also work (I hope). At last let me tell you what I did these days:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Switched from &lt;a href=&quot;http://linode.com/&quot;&gt;Linode&lt;/a&gt; to &lt;a href=&quot;http://www.rackspacecloud.com/&quot;&gt;Rackspace&lt;/a&gt;, unmanaged cloud server.&lt;/li&gt;
-  &lt;li&gt;Apache to nginx.&lt;/li&gt;
-  &lt;li&gt;WordPress to &lt;a href=&quot;http://staceyapp.com/&quot;&gt;Stacey&lt;/a&gt;, &lt;code&gt;UPDATE:&lt;/code&gt; finally switched to &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Deleted almost all my posts, it’s brand new now.&lt;/li&gt;
-  &lt;li&gt;Categories changed, only two categories now: Work and Nootebook.&lt;/li&gt;
-&lt;/ul&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>lindsay-koinaka 2.0</title><id>tag:amsf.github.io,2010:/lindsay-koinaka-2/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/lindsay-koinaka-2.html"/><updated>2010-10-21T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;It’s a WordPress theme since this version, and it’s the first theme I made on a Mac after switching from Windows to OS X less than a month. Comparing to the initial vesion, all complex layouts and CSS3 animations have removed on this theme. Looks pretty simple. The source code is hosted on GitHub with &lt;strong&gt;details instructions and setup guide&lt;/strong&gt;. The good news is the whole configuration needs only ten steps. And the bad news is, maybe it’s the last theme I made for WordPress.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>lindsay-koinaka</title><id>tag:amsf.github.io,2010:/lindsay-koinaka/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/lindsay-koinaka.html"/><updated>2010-09-05T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;The new theme is out. &lt;del&gt;Just what you’re looking at,&lt;/del&gt; it’s still work-in-progress, based on HTML5 and CSS 3. It looks great on a Webkit brwoser. New Firefox 4 should look fine too. IE 10 may also work except border-radius and animations. The source code can be accessed at &lt;del datetime=&quot;2010-10-15T11:23:56+00:00&quot;&gt;Google Code&lt;/del&gt; &lt;a href=&quot;http://github.com/sparanoid/lindsay-koinaka&quot;&gt;GitHub&lt;/a&gt;, however it’s the first time I’m trying things like this. bug reports, comments, suggestions, and ideas for improvements are welcome.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>Lester’s Plugins in Chinese</title><id>tag:amsf.github.io,2009:/lesters-plugins-in-chinese/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/lesters-plugins-in-chinese.html"/><updated>2009-08-06T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p lang=zh&gt;這些基本是我在建一個私人 WPMU 時用到的插件，Lester Chan 的插件翻譯起來是相當舒服的，分離的徹底而且順序也比較有邏輯性。於是就把他大部分的插件都翻譯成了中文&lt;/p&gt;
-
-&lt;p lang=zh&gt;WP-DBManager 與 WP-PageNavi 以前就有翻譯，所以部分字串的翻譯可能和新翻譯的風格不太一致；還有一些插件沒翻譯，比如 WP-Polls 和 WP-DownloadManager，這些功能我用不上，所以不考慮翻譯，而且已經有人翻譯過，但質量和翻譯度一般。插件的功能就不說了，看名字也略知一二， 詳情請訪問 &lt;a href=&quot;http://lesterchan.net/portfolio/programming/php/&quot;&gt;WordPress Plugins@Lester Chan&lt;/a&gt;&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>Need More Space?</title><id>tag:amsf.github.io,2009:/need-more-space/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/need-more-space.html"/><updated>2009-07-28T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;First you should look at &lt;a href=&quot;/ui-in-opera-chrome-ie-and-firefox_large.png&quot;&gt;this preview&lt;/a&gt;. Comparing Opera 10, Chrome 3.0, Internet Exporer 8, Firefox 3.5, The largest viewport area for those brwosers is Chrome. It doens’t have status bar at the bottom and the others have it and it’s enabled by default. Opera has its menus shown by default, but you can hide it. Firefox also have menus but unfortunately you can’t hide it without hacks or extensions.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>BugMirror</title><id>tag:amsf.github.io,2007:/bugmirror/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/bugmirror.html"/><updated>2007-08-20T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;BugMirror is a different screen saver, as its packed with bugs. Nowadays screens are made out of pixels. What if they were made of living creatures instead?&lt;/p&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://uri.cat/software/BugMirror/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>SF.net CCA 2007 Winner</title><id>tag:amsf.github.io,2007:/7zip-sourceforge-cca07/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/7zip-sourceforge-cca07.html"/><updated>2007-08-04T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;blockquote cite=&quot;http://sourceforge.net/blog/cca07/&quot;&gt;
-  &lt;p&gt;&lt;strong&gt;The Community Choice Awards&lt;/strong&gt; are over! The SourceForge.net 2007 Community Choice Awards provided you an opportunity to recognize projects that stand taller than the rest. Everybody got to vote, and everybody’s vote counted equally. The winning projects, each with superlative quality, productivity, and ingenuity, represent the cream of the crop on SourceForge.net.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;7-Zip wins Best Technical Design: The project most likely to inspire awe with its technical perfection.&lt;/p&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://sourceforge.net/blog/cca07/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>A New Keyboard</title><id>tag:amsf.github.io,2007:/a-new-keyboard/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/a-new-keyboard.html"/><updated>2007-07-28T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/hardware/en-us/d/comfort-curve-keyboard-2000&quot;&gt;Microsoft Comfort Curve Keyboard 2000&lt;/a&gt;, The whole keyboard is a curved shape, comfortable, ergonomically inspired contours, and it looks a little strange. It sounds lighter than my old Logitech keyboard. The bad is the keys feel a bit mushy, especially the space key.&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>7-Zip Portable</title><id>tag:amsf.github.io,2006:/7-zip-portable/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/7-zip-portable.html"/><updated>2006-08-24T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p lang=zh&gt;對於那些不想安裝的人來說，用這個還是不錯的，放在 U 盤裡隨時用也挺方便&lt;/p&gt;
-
-        
-        
-      
-        &lt;p&gt;&lt;a href=&quot;http://portableapps.com/apps/utilities/7-zip_portable&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
-      
-    
-      </content></entry><entry><title>Segoe UI</title><id>tag:amsf.github.io,2006:/segoe-ui/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/segoe-ui.html"/><updated>2006-05-19T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p lang=zh&gt;在搞 Xinjustice 時，順便了解了一下字體，翻到 &lt;a href=&quot;http://blogs.msdn.com/b/jensenh/archive/2005/11/16/493388.aspx&quot;&gt;Making the Letters Better&lt;/a&gt; 時發現 Segoe UI 與 Frutiger Next 異常的像，MS 承認 Segoe UI 就是 Frutiger Next，Segoe UI 也只是對 ClearType 做了優化而已&lt;/p&gt;
-
-        
-        
-      
-    
-      </content></entry><entry><title>Hello World</title><id>tag:amsf.github.io,2005:/hello-world/</id><link rel="alternate" type="text/html" href="http://amsf.github.io/hello-world.html"/><updated>2005-10-21T00:00:00+08:00</updated><author><name>Tunghsiao Liu</name><uri>http://amsf.github.io/</uri><email>t@sparanoid.com</email></author><content type="html" xml:base="http://amsf.github.io/">
-        
-          &lt;p&gt;Yes, it’s me.&lt;/p&gt;
-
-        
-        
+        &lt;p&gt;&lt;a href=&quot;http://sparanoid.com/&quot;&gt;◉ Direct Link to Original Site&lt;/a&gt;&lt;/p&gt;
       
     
       </content></entry></feed>
