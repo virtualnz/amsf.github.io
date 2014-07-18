@@ -4,8 +4,10 @@
 @link-color: #a212d1;
 @background-color: #fff;
 @text-color: #000;
+@code-color: spin(@link-color, 180);
 @sans-serif: "Helvetica Neue", Arial, "Hiragino Sans GB", sans-serif;
 @serif: Georgia, "Hiragino Mincho ProN", serif;
+@monospace: Menlo, monospace;
 
 // Invert color switcher for images and videos
 // :root { filter: invert(100%); }
@@ -239,13 +241,18 @@ body:hover .latest {
     > *:last-child {
       margin-bottom: 0 !important;
 
-      // article > ul > li
+      // article > ul > li, article > .footnotes > ol
       > *:last-child {
         margin-bottom: 0 !important;
 
-        // article > ul > li > p
+        // article > ul > li > p, article > .footnotes > ol > li
         > *:last-child {
           margin-bottom: 0 !important;
+
+          // article > .footnotes > ol > li > p
+          > *:last-child {
+            margin-bottom: 0 !important;
+          }
         }
       }
     }
@@ -263,10 +270,10 @@ body:hover .latest {
   header {
     padding-bottom: 16vmin;
 
-    h1 {
+    h2 {
       margin: 0 0 .1em;
       .heading;
-      hyphens: auto;
+      hyphens: none;
       line-height: 1.1;
 
       svg {
@@ -304,8 +311,8 @@ body:hover .latest {
     }
   }
 
-  h3 {
-    margin: 10vmin 0 1em;
+  h3, h4, h5, h6 {
+    margin: 10vmin 0 1rem;
     .sub-heading;
   }
 
@@ -314,6 +321,10 @@ body:hover .latest {
 
     li {
       line-height: (@base-line-height * 1.2);
+
+      > ul {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -344,7 +355,6 @@ body:hover .latest {
       float: right;
       font-size: 90%;
       font-style: normal;
-      color: fade(@text-color, 80%);
 
       &:before {
         // http://www.fileformat.info/info/unicode/char/2500/index.htm
@@ -362,8 +372,8 @@ body:hover .latest {
   }
 
   code, pre {
-    font-family: Menlo, monospace;
-    color: #68a;
+    font-family: @monospace;
+    color: @code-color;
   }
 
   pre {
@@ -461,26 +471,34 @@ body:hover .latest {
 // Broser frame for images in category "work"
 .browser {
   position: relative;
-  padding-top: 20px;
+  padding-top: 24px;
   margin: 0 0 4vmin !important;
-  background: rgba(0, 0, 0, .05);
+  background: rgba(255, 255, 255, .1);
   border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .05);
 
   &:before {
     position: absolute;
-    top: 6px;
-    left: 8px;
+    top: 8px;
+    left: 10px;
     display: block;
     width: 8px;
     height: 8px;
-    background: rgba(0, 0, 0, .15);
+    background: lighten(#f24e59, 30%);
     border-radius: 50%;
     content: "";
+    box-shadow:
+        16px 0 0 0   fade(lighten(#fac536, 30%), 96%)
+      , 32px 0 0 0   fade(lighten(#26e93d, 30%), 96%)
+      ,  0px 0 0 1px fade(darken(#f24e59, 30%), 30%)
+      , 16px 0 0 1px fade(darken(#fac536, 30%), 30%)
+      , 32px 0 0 1px fade(darken(#26e93d, 30%), 30%)
+    ;
   }
 
   img {
     margin: 0;
-    box-shadow: rgba(0, 0, 0, .05) 0 -1px 0 0;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, .05);
   }
 }
 
@@ -511,20 +529,13 @@ article .list {
   list-style: none;
   margin: 0;
 
-  li {
+  > li {
     margin: 0 0 1.4vmin;
 
     h2 {
       .heading;
       font-size: 200%;
       line-height: 1.2;
-
-      time {
-        font-size: 50%;
-        color: lighten(@text-color, 70%);
-        opacity: 0;
-        transition: opacity .5s ease;
-      }
     }
   }
 
@@ -586,6 +597,40 @@ article .list {
   }
 }
 
+// Plugn-Ins
+.loaded {
+
+  .intense-wrap {
+
+    article p > img:not(.nointense) {
+      cursor: zoom-in;
+    }
+  }
+
+  &.intense-open {
+    cursor: zoom-out;
+  }
+}
+
+// GitHub Gist reset
+.gist {
+
+  code, pre {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+  }
+
+  .gist-file {
+    font-family: @monospace !important;
+    font-size: 80% !important;
+  }
+
+  .markdown-body {
+    padding: 1em;
+  }
+}
+
 // Media query stack
 @media (max-width: 1000px) {
 
@@ -605,8 +650,8 @@ article .list {
   }
 
   // Override viewport units defined in post.html
-  article h1 svg,
-  article h1 img {
+  article h2 svg,
+  article h2 img {
     width: 100% !important;
     height: 100% !important;
   }

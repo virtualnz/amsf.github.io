@@ -1,43 +1,45 @@
 # Almace Scaffolding
-[![Build Status](https://travis-ci.org/sparanoid/almace-scaffolding.svg)](https://travis-ci.org/sparanoid/almace-scaffolding)
 [![devDependency Status](https://david-dm.org/sparanoid/almace-scaffolding/dev-status.svg)](https://david-dm.org/sparanoid/almace-scaffolding#info=devDependencies)
-[![Demo Available](https://img.shields.io/badge/demo-available-brightgreen.svg)](#c8)
+[![Demo Available](https://img.shields.io/badge/demo-available-brightgreen.svg)](#demo)
 
 `amsf`, a.k.a. **Almace Scaffolding**, a sleek and super-fast responsive theme with only one HTTP request, LESS auto-compile, prefix-free, HTML minification, inlined stylesheets and more. Available for [Jekyll](http://jekyllrb.com/) right now (will be available for more platforms in the future).
 
-**Table of Contents**
+-----
+
+## Table of Contents
 
 - [Features](#features)
 - [Setup](#setup)
-- [Managing Media](#managing-media)
 - [Upgrading](#upgrading)
-- [Tips](#tips)
+- [Customizing](#customizing)
+- [Unique Post Styling](#unique-post-styling)
+- [Managing Media](#managing-media)
 - [Avaiable Styles](#avaiable-styles)
   - [`.note`, `.store`, and `.download`](#note-store-and-download)
   - [`.browser`](#browser)
   - [`.largetype`](#largetype)
-- [Avaiable Settings](#avaiable-settings)
+- [Tips](#tips)
 - [Demo](#demo)
 - [GitHub Pages Setup Guide](#github-pages-setup-guide)
   - [The Problem](#the-problem)
   - [The Solution](#the-solution)
+- [Other Notes](#other-notes)
 - [Donate](#donate)
 - [Author](#author)
 - [Licenses](#licenses)
 
 ## Features
 
+- A basic, fully configured Jekyll setup with well-defined [Atom feed](_app/feed-atom.xml), [sitemap](_app/sitemap.xml), and [Twitter Cards](https://dev.twitter.com/docs/cards) support
 - **Almace Scaffolding** ships a sleek responsive theme, a variant of [sparanoid.com](http://sparanoid.com/), looking great on any mordern browsers
 - Every minified page generates only one HTTP request *
-- Minimalism design, No jQuery library, No JavaScript, No `everybody-shake-ur-body.js`
+- Minimalism design, No jQuery, no `everybody-shake-ur-body.js`
 - Ideal for personal blog, portfolio, product blog and Tumblr-like link blog
 - (Maybe) [the first](https://github.com/sparanoid/sparanoid.com/commit/9b44b4c0f57c3dd1e828d828a95cc21b992785ce) template that uses [viewport relative units](http://www.w3.org/TR/css3-values/#viewport-relative-lengths)
-- [Tons of configurable settings](_app/_data/var.yml) for your posts and site customization
+- [Tons of configurable settings](_config.init.yml) for your posts and site customization
 - [Handcrafted stylesheets](_app/assets/_less/app.less). No Bootstrap or other bloated frameworks are used, CSS < 12 KB (Unminified)
 - Predefined LESS variables make it easier to change color schemes for different posts
-- Well-defined [Atom feed template](_app/feed-atom.xml)
-- [Sitemap template](_app/sitemap.xml) for search engines
-- [Twitter Cards](https://dev.twitter.com/docs/cards) support
+-
 - [Default stylesheets](_app/assets/_less/syntax.less) for Pygments code highlighting
 - Redcarpet as Markdown renderer, tables, footnotes, GFM, smart quotes are supported
 - Built with Grunt.js for easy development:
@@ -53,35 +55,60 @@
 
 1. [Fork](https://github.com/sparanoid/almace-scaffolding/fork) this project, checkout to your local machine.
 2. Run `bundle install && npm install` to install required dependencies. Ruby gem `bundler` and Node.js package manager `npm` must be installed before running this command.
+3. Copy [`_config.init.yml`](_config.init.yml) to `_config.yml` as your default configuration file.
 3. Run `grunt serve` to fire up a server on your localhost, then open `http://localhost:4321` in your browser.
 4. Edit, edit, delete, delete, commit, push, done.
 
+So in short for geeks:
+
+```shell
+git clone git@github.com:sparanoid/almace-scaffolding.git
+bundle install && npm install
+cp _config.init.yml _config.yml
+grunt serve
+```
+
 Still can't get things working? Why not try my [video tutorials](http://www.youtube.com/watch?v=5NV6Rdv1a3I).
-
-## Managing Media
-
-Media files are located in `./assets/` and grouped by different formats:
-
-- `./_less/`: LESS stylesheets, the leading underscore makes sure this directory is excluded from Jekyll generated site.
-- `./css/`:  CSS and its sourcemap files generated from LESS, it's gitignored.
-- `./font/`: Web fonts
-- `./img/`: Image assets, images used by template, personally I don't recommend put post images here, use a CDN instead.
-- `./js/`: JavaScript files, put all needed sctipts in this directoy will just work fine. I don't expect to have many scripts so no complex `vender`, `lib`, or other fancy structures used for this project.
-- `./svg/`: The same as `./img/`.
 
 ## Upgrading
 
 Upgrading templates is hard, it will be easy if you are're a casual blogger and keep every template file untouched. Just copy and paste all template files in `_assets`, `_includes`, and `_layouts`. If you change the templates directly, you have to compare them side to side.
 
-## Tips
+## Customizing
 
+- All custom settings can be configured at `_config.yml` (a copy of [`_config.init.yml`](_config.init.yml) you just duplicated since your first setup), it's well commented so you should really check it out.
 - Additional variables are stored in [`./_app/_data/`](/_app/_data) directory. They can be accessed by Jekyll. ([More info](http://jekyllrb.com/docs/datafiles/))
-- Not familer with [Markdown](http://daringfireball.net/projects/markdown/)? Try [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-- You can use Jekyll's [built-in syntax highlighting](http://jekyllrb.com/docs/templates/#code_snippet_highlighting), I've included a default theme for this project.
-- [Tables](https://help.github.com/articles/github-flavored-markdown#tables) and [footnotes](https://github.com/vmg/redcarpet#and-its-like-really-simple-to-use) are also avaiables to use.
+- Customize your site's look and fell by changing [`./_app/assets/_less/custom.less`](/_app/assets/_less/custom.less).
+- Use your custom JavaScript snippets (Google Analytics, Typekit, etc.) in [`./_app/_includes/js.html`](/_app/_includes/js.html).
 - You should also change `favicon.ico` and `apple-touch-icon.png` to yours.
-- Customize your site using `custom.less`.
+- You can add Travis support for this project, simplly rename [`.travis.init.yml`](.travis.init.yml) to `.travis.yml`.
 - Some tasks in `Gruntfile.coffee` are not used in this project, they're copied from my own [website](https://github.com/sparanoid/sparanoid.com), I'll keep them untouched in case you need these.
+
+## Unique Post Styling
+
+You can simply use `css` key to your post YAML front-matter head:
+
+```
+---
+layout: post
+title: Welcome to Almace Scaffolding
+css: |
+  body {
+    font-size: 1.8vw;
+  }
+---
+```
+
+## Managing Media
+
+Media files are located in `./assets/` and grouped by different formats:
+
+- `./_js/`: JavaScript files, put all needed sctipts in this directoy will just work fine. All files in this directory will be automatically uglified and copied into `./js/`. I don't expect to have many scripts so no complex `vender`, `lib`, or other fancy structures used for this project.
+- `./_less/`: LESS stylesheets, the leading underscore makes sure this directory is excluded from Jekyll generated site.
+- `./css/`:  CSS and its sourcemap files generated from LESS, it's gitignored.
+- `./font/`: Web fonts
+- `./img/`: Image assets, images used by template, personally I don't recommend put post images here, use a CDN instead.
+- `./svg/`: The same as `./img/`.
 
 ## Avaiable Styles
 
@@ -127,9 +154,11 @@ Usage:
 </p>
 ```
 
-## Avaiable Settings
+## Tips
 
-All custom settings can be configured at [`_app/_data/var.yml`](_app/_data/var.yml), it's well commented so you should really check it out.
+- Not familer with [Markdown](http://daringfireball.net/projects/markdown/)? Try [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+- You can use Jekyll's [built-in syntax highlighting](http://jekyllrb.com/docs/templates/#code_snippet_highlighting), I've included a default theme for this project.
+- [Tables](https://help.github.com/articles/github-flavored-markdown#tables) and [footnotes](https://github.com/vmg/redcarpet#and-its-like-really-simple-to-use) are also avaiables to use.
 
 ## Demo
 
@@ -161,6 +190,10 @@ If you'd like to keep all things under Git control, you can try the following fi
     └── README.md (your own readme)
 
 You can see this [live demo](http://github.com/amsf/amsf.github.io/) how to make them friends.
+
+## Other Notes
+
+- `_config.yml` is git ignored from `.git/info/exclude` file
 
 ## Donate
 
