@@ -2,7 +2,7 @@
 
 This is a demo how to make [Almace Scaffolding](http://github.com/sparanoid/almace-scaffolding) work well with [GitHub Pages](http://pages.github.com/).
 
-## Things you should take care of
+## Things you should take care of testing testing
 
 - You should change your homepage title in [`index.html`](_amsf/_app/index.html)
 - Some variables such as `domain`, `url`, `feed`, and `name` in [`_config.yml`](_amsf/_config.yml)
